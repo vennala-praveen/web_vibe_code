@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+  background-color: #111; 
+  color: #222;
+}
+
+/* Logo */
+.logo{
+  width: 3rem;
+  border-radius: 50%;
+  border:1px solid #888;
+  padding: 4px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.logo:hover{
+  transform: scale(1.1);
+}
+
+/* Save Button */
+.save{
+  display: flex;
+  border-radius: 5px;
+  border: 0px solid #a0a0a0;
+  padding: 3px 5px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+.save:hover{
+  cursor:pointer;
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+
+/* Card */
+.card-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card{
+  width: 310px;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: #fff;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+
+.card-between{
+  margin-top: 20px;
+  column-gap: 10px;
+  min-height: 156px;
+}
+
+/* Company Details */
+.company-details{
+  display: flex;
+  gap:5px;
+  margin-bottom: 6px;
+  justify-content: start;
+  align-items: center;
+}
+.company-name{
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+.jobposted{
+  font-size: 9px;
+  padding: 3px 6px;
+  border-radius: 4px;
+  background-color: #03f52b;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Job Role */
+.job-role{
+  margin-bottom: 6px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #222;
+}
+
+/* Job Info */
+.job-info{
+  display: flex;
+  gap:7px;
+  margin-bottom: 6px;
+}
+.job-info li{
+  list-style:none;
+  background-color: #f2f2f2;
+  padding:3px 10px;
+  border-radius: 7px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+.job-info li:hover{
+  background-color: #ddd;
+}
+
+/* Divider */
+hr{
+  margin-bottom:1rem;
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+}
+
+/* Card Bottom */
+.card-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.salary{
+  font-weight: 600;
+  font-size: 1.07rem;
+  color: #111;
+}
+.job-location{
+  font-size: 0.7rem;
+  color: #777;
+  font-weight: 400;
+}
+
+/* Buttons */
+button{
+  padding: 6px 12px;
+  background-color: #000;
+  color:#eee;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.4s ease;
+}
+button:hover{
+  cursor:pointer;
+  color:#fff;
+  transform: scale(1.05);
+  background-color: #222;
+}
+
+/* Saved Icon */
+.saved{
+  filter: invert(1) brightness(0);
+}
+.savetext{
+  background-color: #b8b7b7;
+}
+
+/* Job Posts Container */
+.jobposts{
+  width: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #05000000;
+  gap: 23px;
+  align-content: start;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 15px rgba(0,0,0,0.3);
+}
+
+/* Main Layout */
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0px;
+}
+
