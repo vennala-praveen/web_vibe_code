@@ -4,7 +4,7 @@ const Tim = () => {
 
     //first -> side effect function -> api fetching / axios
     //second -> clean up function (unmount data)
-    //third -> dependency list through comma sepereted
+    //third -> dependency list through comma seperated
 
     const [count, setCount] = useState(0);
     // const [total, setTotal] = useState(0);
