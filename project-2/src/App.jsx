@@ -3,6 +3,7 @@ import Card from './components/Card'
 import Data from './components/Data'
 import Tom from './components/Tom'
 import Tim from './components/Tim'
+import Sung from './components/Sung'
 
 
 
@@ -11,8 +12,9 @@ const App = () => {
     <div className='parent'>
       {/* <Card />
       <Data />
-      <Tom /> */}
-      <Tim/>
+      <Tom />
+      <Tim/> */}
+      <Sung/>
     </div>
   )
 }
