@@ -4,6 +4,7 @@ import Data from './components/Data'
 import Tom from './components/Tom'
 import Tim from './components/Tim'
 import Sung from './components/Sung'
+import Main from './components/Main'
 
 
 
@@ -13,8 +14,9 @@ const App = () => {
       {/* <Card />
       <Data />
       <Tom />
-      <Tim/> */}
-      <Sung/>
+      <Tim/>
+      <Sung/> */}
+      <Main/>
     </div>
   )
 }
