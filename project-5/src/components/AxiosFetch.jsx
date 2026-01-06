@@ -19,11 +19,11 @@ const AxiosFetch = () => {
   };
 
    useEffect(() => {
-  const getImages = async () => {
-    await fetchImage(page);
-  };
-  getImages();
-}, [page]);
+    const getImages = async () => {
+        await fetchImage(page);
+    };
+    getImages();
+    }, [page]);
 
   const handlePrev = () => {
     if (page > 1) setPage(page - 1);
