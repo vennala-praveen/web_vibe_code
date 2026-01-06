@@ -1,8 +1,11 @@
 import React from 'react'
+import AxiosFetch from './components/AxiosFetch'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <AxiosFetch/>
+    </>
   )
 }
 
